@@ -1,6 +1,7 @@
 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 70px;
+    margin: 0%;
 }
 
 h3{
@@ -71,7 +72,7 @@ body{
     color:white;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 0%;
+    margin: 0%;
 }
 .experience-item{
     width: 50%;
