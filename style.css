@@ -5,10 +5,15 @@ h1{
 
 h3{
     font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
 }
 .orange-color{
-    color: orange;
+    color: orange;    
+
 }
 
 body{
@@ -16,7 +21,7 @@ body{
     margin: 0%;
 }
 
-section{ 
+.flexible-container{ 
     display: flex;
   
 }
@@ -45,7 +50,8 @@ section{
 .middle-banner{
     background-color: black;
     color: white;
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .pink-color{
     color:rgb(218, 60, 112);
@@ -59,4 +65,25 @@ section{
     border-radius: 10px;
     color: white;
     font-weight: 500;
+}
+.experience-area{
+    background-image: url("images/hello-image\ \(4\).jpg");
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0%;
+}
+.experience-item{
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 5%;
+    box-shadow: 10px 10px 40px rgb(228, 217, 72);
+    border-radius: 5%;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color:blanchedalmond;
+    font-size: 100%;
 }
