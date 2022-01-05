@@ -3,7 +3,6 @@ h1{
     font-size: 70px;
 }
 
-
 h3{
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
@@ -19,8 +18,7 @@ body{
 
 section{ 
     display: flex;
-    
-    
+  
 }
 .half-width{
     width: 50%;
@@ -43,6 +41,22 @@ section{
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    
+}
+.middle-banner{
+    background-color: black;
+    color: white;
 
+}
+.pink-color{
+    color:rgb(218, 60, 112);
+    font-size: 50px;
+    font-weight: 700;
+}
+.resume-button{
+    text-decoration: none;
+    background-image:linear-gradient(rgb(202, 87, 150),rgb(87, 6, 40));
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
 }
